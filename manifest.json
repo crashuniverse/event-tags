@@ -17,8 +17,8 @@
     }
   },
   "content_scripts": [{
-    "matches": ["https://www.songkick.com/*"],
-    "js": ["content.js"]
+    "matches": ["https://www.songkick.com/metro_areas/*", "https://www.songkick.com/venues/*"],
+    "js": ["content-scripts.js"]
   }],
   "icons": {
       "16": "images/get_started16.png",
